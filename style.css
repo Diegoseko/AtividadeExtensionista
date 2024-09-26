@@ -1,0 +1,185 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #1c1c1c 0%, #333 100%);
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+#h1Header {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: white;
+    border: 2px solid #555;
+    color: #555;
+    font-size: 16px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* Container da Imagem */
+.container {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.container img {
+    max-width: 600px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Conteúdo de ONGs */
+.conteudo {
+    padding: 40px 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.conteudo h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.ong {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.ong h3 {
+    font-size: 28px;
+    color: #555;
+}
+
+.ong p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Sobre Nós */
+.conteudo2 {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.conteudo2 h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.sobreNos {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sobreNos p {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.7;
+}
+
+/* Seção Como Trabalhamos */
+#ComoTrabalhamos {
+    background-color: #f4f4f4;
+    padding: 40px;
+}
+
+#ComoTrabalhamos h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.comoTrabalhamos {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.comoTrabalhamos p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Bottom Header (Fale Conosco) */
+footer {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+footer .contato p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
